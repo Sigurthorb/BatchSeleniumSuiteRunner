@@ -1,0 +1,8 @@
+{
+    "suiteDirectory": ["D:\\data\\suites"],
+    "resultDirectory": "D:\\data\\result",
+    "seleniumJar": "D:\\data\\selenium-server-standalone-2.53.1.jar",
+    "url": "http://google.com",
+    "port": 44466,
+    "browser": "*firefox"
+}

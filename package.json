@@ -1,0 +1,29 @@
+{
+  "name": "boiler",
+  "version": "0.0.1",
+  "description": "Starting enviroment for console programs",
+  "main": "index.js",
+  "scripts": {
+    "build": "nexe"
+  },
+  "author": "Sigurthor Bjorgvinsson",
+  "license": "ISC",
+  "dependencies": {
+    "argparse": "^1.0.9",
+    "colors": "^1.1.2",
+    "create-html": "^1.1.0",
+    "fs-extra": "^2.0.0",
+    "nexe": "^1.1.2",
+    "sugar": "^2.0.4",
+    "winston": "^2.3.1"
+  },
+  "nexe": {
+    "input": "./node_modules/nexe/bin/nexe",
+    "output": "./build/output/test^$",
+    "temp": "./build/tmp",
+    "runtime": {
+      "framework": "node",
+      "version": "4.7.3"
+    }
+  }
+}
