@@ -1,8 +1,12 @@
 {
-    "suiteDirectory": ["D:\\data\\suites"],
+    "suiteDirectory": [
+        "D:\\data\\suites",
+        "D:\\data\\suites\\suite2"
+    ],
     "resultDirectory": "D:\\data\\result",
     "seleniumJar": "D:\\data\\selenium-server-standalone-2.53.1.jar",
     "url": "http://google.com",
     "port": 44466,
-    "browser": "*firefox"
+    "browser": "*firefox",
+    "timeout": null
 }
