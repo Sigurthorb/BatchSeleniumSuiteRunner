@@ -11,9 +11,7 @@ This tool will generate a report summary of all the tools and write all output o
 
 ### Next updates
 Because of a broken build of `Selenium Html Runner` this tool was created for `Selenium Standalone Server 2.53.1`
-This tool will be updated once the 
-
-Functions will be changes to ES6 syntax
+This tool will be updated once the `Selenium Html Runner` is working again
 
 ### Run dependecies
 
