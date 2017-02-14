@@ -20,7 +20,7 @@
   },
   "nexe": {
     "input": "index.js",
-    "output": "test.exe",
+    "output": "./build/output/BatchSeleniumSuiteRunner^$",
     "temp": "./build/tmp",
     "browserify": {
       "requires": [],
