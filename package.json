@@ -33,5 +33,8 @@
       "js-flags": "--use_strict",
       "ignoreFlags": true
     }
+  },
+  "devDependencies": {
+    "nexe": "^1.1.3"
   }
 }

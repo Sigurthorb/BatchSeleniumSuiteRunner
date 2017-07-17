@@ -23,14 +23,16 @@ This tool will be updated once the `Selenium Html Runner` is working again
 
 ### Build dependencies
 
-  - npm
-  - nexe installed globally (npm install -g nexe)
-  - [nexe dependencies](https://github.com/nexe/nexe#building-requirements)
+  * npm 
+  * [nexe dependencies](https://github.com/nexe/nexe#building-requirements)
+      * npm install -g windows-build-tools
+      * python 2.7
+
 
 ### How to Build
     clone git@github.com:Sigurthorb/BatchSeleniumSuiteRunner.git
     npm install
-    nexe
+    npm run build
 
 #### Frequent issues
 - If firefox browser does not close after execution of a test suite the browser needs to be configured to not ask if you want to close multiple tabs. [FIX](https://support.mozilla.org/t5/Manage-preferences-and-add-ons/Tab-preferences-and-settings/ta-p/3683)
